@@ -41,3 +41,6 @@ jobs
 ```
 fg %n
 ```
+## 2.chrome浏览器安装SwitchyOmega插件
+配置SwitchyOmega 监听127.0.0.1:1080
+
