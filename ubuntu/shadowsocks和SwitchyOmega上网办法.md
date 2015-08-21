@@ -25,11 +25,11 @@ sslocal -s 123.123.213.213 -p 6666 -b 127.0.0.1 -l 1080 -k 23333 -t 600 -m aes-2
 "method" : "aes-256-cfb"
 }
 ```
-*启动命令
+* 命令行脚本启动
 ```
 sslocal -c /filepath/to/ss.conf
 ```
-*后台运行，输出存入sslocallog
+* 后台脚本运行，输出存入sslocallog
 ```
 nohup sslocal -c ss.conf > sslocallog &
 ```
